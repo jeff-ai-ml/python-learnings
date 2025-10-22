@@ -7,6 +7,14 @@ class Dog:
     def bark(self):
         print("Bark Bark !!")
 
+
+class Owner:
+
+    def __init__(self, ownername, address, contact):
+        self.name = ownername
+        self.address = address
+        self.contact = contact
+
 dog1 = Dog("Tommy", "German Sheapard")
 dog1.bark()
 print(f"Dog1 Name : {dog1.name}")
